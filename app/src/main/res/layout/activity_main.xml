@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.textswitcherandroid.MainActivity">
+
+    <TextSwitcher
+        android:id="@+id/tv_sw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#6C6C6C"
+        android:layout_margin="12dp"
+    />
+    <TextSwitcher
+        android:id="@+id/tv_sw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#6C6C6C"
+        android:layout_margin="12dp"
+    />
+    <TextSwitcher
+        android:id="@+id/tv_sw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#6C6C6C"
+        android:layout_margin="12dp"
+    />
+    <TextSwitcher
+        android:id="@+id/tv_sw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#6C6C6C"
+        android:layout_margin="12dp"
+    />
+
+
+</LinearLayout>
